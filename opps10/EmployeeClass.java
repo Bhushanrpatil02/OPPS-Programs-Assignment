@@ -1,0 +1,57 @@
+package com.yash.opps10;
+
+import java.util.Date;
+
+public class EmployeeClass {
+	private int empid;
+	private String empname;
+	private double empsalary;
+	private String empaddress;
+	private Date emp_dob;
+	private Date emp_doj;
+	public int getEmpid() {
+		return empid;
+	}
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+	public String getEmpname() {
+		return empname;
+	}
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	}
+	public double getEmpsalary() {
+		return empsalary;
+	}
+	public void setEmpsalary(double empsalary) {
+		this.empsalary = empsalary;
+	}
+	public String getEmpaddress() {
+		return empaddress;
+	}
+	public void setEmpaddress(String empaddress) {
+		this.empaddress = empaddress;
+	}
+	public Date getEmp_dob() {
+		return emp_dob;
+	}
+	public void setEmp_dob(Date emp_dob) {
+		this.emp_dob = emp_dob;
+	}
+	public Date getEmp_doj() {
+		return emp_doj;
+	}
+	public void setEmp_doj(Date emp_doj) {
+		this.emp_doj = emp_doj;
+	}
+	@Override
+	public String toString() {
+		return "Employee Details :- \n "
+				+ "Employee-ID :- " + empid + ", Employee-Name :- " + empname + ", Employee-Salary :- " + empsalary + ", Employee-Address :- "
+				+ empaddress + ", Employee-Date-Of-Birth :- " + emp_dob + ", Employee-Date-Of-Joining :- " + emp_doj + "";
+	}
+	
+	
+
+}
